@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c153f3a9.chunk.css",
+    "main.js": "/portfolio/static/js/main.30f8e132.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.30f8e132.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
+    "static/js/2.2de1fa3e.chunk.js": "/portfolio/static/js/2.2de1fa3e.chunk.js",
+    "static/js/2.2de1fa3e.chunk.js.map": "/portfolio/static/js/2.2de1fa3e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.c153f3a9.chunk.css.map": "/portfolio/static/css/main.c153f3a9.chunk.css.map",
+    "static/js/2.2de1fa3e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2de1fa3e.chunk.js.LICENSE.txt",
+    "static/media/counter.55127915.png": "/portfolio/static/media/counter.55127915.png",
+    "static/media/facebook.aa967ec0.svg": "/portfolio/static/media/facebook.aa967ec0.svg",
+    "static/media/html-icon.f2b90566.svg": "/portfolio/static/media/html-icon.f2b90566.svg",
+    "static/media/js-icon.47533dfb.svg": "/portfolio/static/media/js-icon.47533dfb.svg",
+    "static/media/linkedin.2e1db5e2.svg": "/portfolio/static/media/linkedin.2e1db5e2.svg",
+    "static/media/Main.module.scss": "/portfolio/static/media/photo.5867c032.png",
+    "static/media/react-icon.1cdd1e69.svg": "/portfolio/static/media/react-icon.1cdd1e69.svg",
+    "static/media/social-network.91e20c0c.jpg": "/portfolio/static/media/social-network.91e20c0c.jpg",
+    "static/media/telegram.6ef96d2a.svg": "/portfolio/static/media/telegram.6ef96d2a.svg",
+    "static/media/todolist.0ef1fb36.png": "/portfolio/static/media/todolist.0ef1fb36.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9f76519.js",
+    "static/js/2.2de1fa3e.chunk.js",
+    "static/css/main.c153f3a9.chunk.css",
+    "static/js/main.30f8e132.chunk.js"
+  ]
+}
