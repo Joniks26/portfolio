@@ -1,0 +1,21 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+
+
+.projectsBlock {
+  padding: 100px 0;
+  .container {
+    @include container();
+    @include flex(column, flex-start, stretch, nowrap);
+    .projects {
+      @include flex(row, space-between, flex-start, wrap);
+      @media screen and (max-width: 1127px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+

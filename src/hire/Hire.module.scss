@@ -1,0 +1,13 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+
+
+.hireBlock {
+    padding: 70px 0;
+    .container {
+        @include container();
+        @include flex(column, space-between, center, nowrap);
+        height: 150px;
+    }
+}

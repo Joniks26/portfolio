@@ -1,0 +1,26 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+
+
+.skillsBlock {
+    padding: 100px 0;
+    .container {
+        @include container();
+        @include flex(column, flex-start, stretch, nowrap);
+        .skills {
+            @include flex(row, space-around, flex-start, wrap);
+            @media screen and (max-width: 1128px){
+                .skills {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
