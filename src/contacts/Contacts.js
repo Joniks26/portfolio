@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 import Button from "../common/components/button/Button";
 
 const cv = 'https://drive.google.com/file/d/1_LOsqtEpiHFxCD1qiWMN3ht-2kzXvt9G/view?usp=sharing'
-const resume = 'https://drive.google.com/file/d/17fjeyCJA7SESWxmcEzfA4B9MXI8ePyW2/view?usp=sharing'
+const resume = 'https://drive.google.com/file/d/1of9F1ZldDXLJj9qZaVQQnhh-oiL9yJW5/view?usp=sharing'
 
 function Contacts() {
     return (
