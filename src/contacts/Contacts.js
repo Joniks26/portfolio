@@ -7,7 +7,7 @@ import likedInIcon from "../assets/images/linkedin.svg";
 import Fade from 'react-reveal/Fade';
 import Button from "../common/components/button/Button";
 
-const cv = 'https://drive.google.com/file/d/1_LOsqtEpiHFxCD1qiWMN3ht-2kzXvt9G/view?usp=sharing'
+const cv = 'https://drive.google.com/file/d/1qXDKCwMbxJUO4kQQVe_1PCKVD6vVY6z6/view?usp=sharing'
 
 function Contacts() {
     return (
