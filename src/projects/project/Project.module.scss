@@ -1,10 +1,9 @@
 @import '../../common/styles/sass/variables';
 @import '../../common/styles/sass/mixins';
 
-
 .project {
     width: 450px;
-    margin-top: 60px;
+    margin: 60px 5px 0 5px;
     @include flex(column, flex-start, stretch, nowrap);
     .image {
         height: 300px;

@@ -1,7 +1,6 @@
 @import '../common/styles/sass/variables';
 @import '../common/styles/sass/mixins';
 
-
 .mainBlock {
     min-height: 100vh;
     @include flex(row, center, center, nowrap);
@@ -54,7 +53,7 @@
                 height: 400px;
                 width: 300px;
                 @include bgSettings();
-                background-image: url("./../assets/images/photo.png");
+                background-image: url("./../assets/images/photo.jpeg");
                 background-position: 80% 0;
                 border-radius: 10px;
                 @media screen and (max-width: 600px){

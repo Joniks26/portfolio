@@ -1,0 +1,36 @@
+@import '../../../common/styles/sass/variables';
+@import '../../../common/styles/sass/mixins';
+
+.workTitle {
+  @media screen and (max-width: 1127px) {
+    justify-content: center;
+  }
+  @include flex(column, center, center, nowrap);
+  @include text($TitleFontFamily, 36px, 1.2, 800);
+  letter-spacing: 1px;
+  margin: 0 0 30px;
+  color: $primaryColor
+}
+
+.workInfo {
+  @media screen and (max-width: 1127px) {
+    justify-content: center;
+    @include text($TitleFontFamily, 20px, 1.2, 800)
+  }
+  @include flex(row, space-between, flex-start, wrap);
+  @include text($TitleFontFamily, 24px, 1.2, 800);
+  letter-spacing: 1px;
+  margin: 0 0 5px;
+}
+
+.res {
+  @media screen and (max-width: 1127px) {
+    justify-content: center;
+    @include text($TitleFontFamily, 16px, 1.2, 800)
+  }
+  @include flex(row, space-between, flex-start, wrap);
+  @include text($TitleFontFamily, 24px, 1.2, 800);
+  letter-spacing: 1px;
+  margin: 0 0 5px;
+
+}

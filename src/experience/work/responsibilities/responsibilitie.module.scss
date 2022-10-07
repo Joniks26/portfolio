@@ -1,0 +1,9 @@
+@import '../../../common/styles/sass/variables';
+@import '../../../common/styles/sass/mixins';
+
+.res {
+  @media screen and (max-width: 1127px) {
+    @include text($TextFontFamily, 12px, 1.8, 400);
+  }
+  @include text($TextFontFamily, 20px, 1.8, 400);
+}

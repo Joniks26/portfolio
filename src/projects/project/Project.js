@@ -2,11 +2,7 @@ import React from 'react';
 import style from './Project.module.scss';
 import Button from "../../common/components/button/Button";
 
-
-
-
 function Project(props) {
-
 
     return (
         <div className={style.project}>

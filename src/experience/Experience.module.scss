@@ -1,13 +1,19 @@
 @import '../common/styles/sass/variables';
 @import '../common/styles/sass/mixins';
 
-.projectsBlock {
-  padding: 100px 0;
+
+.ExperienceBlock {
+  padding: 100px 0 0 0;
   .container {
     @include container();
-    @include flex(column, flex-start, stretch, nowrap);
-    .projects {
-      @include flex(row, space-around, flex-start, wrap);
+    @include flex(column, center, center, nowrap);
+    @media screen and (max-width: 1127px) {
+      align-items: center;
+      justify-content: center;
+      overflow-wrap: break-word;
+    }
+    .works {
+      margin: 60px 5px 0 5px;
       @media screen and (max-width: 1127px) {
         justify-content: center;
       }

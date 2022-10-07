@@ -8,7 +8,6 @@ import Fade from 'react-reveal/Fade';
 import Button from "../common/components/button/Button";
 
 const cv = 'https://drive.google.com/file/d/1_LOsqtEpiHFxCD1qiWMN3ht-2kzXvt9G/view?usp=sharing'
-const resume = 'https://drive.google.com/file/d/1of9F1ZldDXLJj9qZaVQQnhh-oiL9yJW5/view?usp=sharing'
 
 function Contacts() {
     return (
@@ -17,29 +16,26 @@ function Contacts() {
                 <div className={styles.container}>
                     <Title text={"Contacts"}/>
                     <form className={styles.form}>
-                    <span className={styles.toWorkTitle}>I am available for telework</span>
+                    <span className={styles.toWorkTitle}>I am available for work</span>
                     <div className={styles.buttonBlock}>
                         <Button link={cv} text={"My CV"}/>
-                    </div>
-                    <div className={styles.buttonBlock}>
-                        <Button link={resume} text={"My resume"}/>
                     </div>
                     </form>
                     <span className={styles.number}>+7 (999) 524-88-00</span>
                     <span className={styles.copyright}>ryzhov.evgeniy.26@gmail.com</span>
                     <div className={styles.socialIcons}>
                         <div className={styles.socialIcon}>
-                            <a href="https://t.me/e_ryzhov" target="_blank">
+                            <a href="https://t.me/e_ryzhov" target="blank">
                                 <img src={telegramIcon} alt=""/>
                             </a>
                         </div>
                         <div className={styles.socialIcon}>
-                            <a href="https://github.com/Joniks26" target="_blank">
+                            <a href="https://github.com/Joniks26" target="blank">
                                 <img src={githubIcon} alt=""/>
                             </a>
                         </div>
                         <div className={styles.socialIcon}>
-                            <a href="https://www.linkedin.com/in/evgeniy-ryzhov-956a7b1a8/" target="_blank">
+                            <a href="https://www.linkedin.com/in/evgeniy-ryzhov-956a7b1a8/" target="blank">
                                 <img src={likedInIcon} alt=""/>
                             </a>
                         </div>

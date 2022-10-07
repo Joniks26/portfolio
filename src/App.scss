@@ -1,7 +1,8 @@
 @import 'common/styles/sass/variables';
 
-
 .App {
+    min-height: 100vh;
+    max-height: 100vh;
     > div {
         &:nth-child(n) {
             background-color: $bgSecondary;
